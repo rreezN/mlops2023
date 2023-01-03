@@ -2,7 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8207386a-1169-4a04-9a0a-ffa67b265f21" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/s1_development_environment/final_exercise/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/s1_development_environment/final_exercise/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cnn_mnist_classifier/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cnn_mnist_classifier/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cnn_mnist_classifier/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cnn_mnist_classifier/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cnn_mnist_classifier/docs/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cnn_mnist_classifier/docs/commands.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cnn_mnist_classifier/docs/conf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cnn_mnist_classifier/docs/getting-started.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cnn_mnist_classifier/docs/index.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cnn_mnist_classifier/docs/make.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cnn_mnist_classifier/models/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cnn_mnist_classifier/models/corruptmnist/checkpoint.pth" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cnn_mnist_classifier/notebooks/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cnn_mnist_classifier/references/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cnn_mnist_classifier/reports/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cnn_mnist_classifier/reports/figures/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cnn_mnist_classifier/reports/figures/corruptmnist/corruptmnisttraining_curve.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cnn_mnist_classifier/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cnn_mnist_classifier/setup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cnn_mnist_classifier/src/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cnn_mnist_classifier/src/data/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cnn_mnist_classifier/src/data/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cnn_mnist_classifier/src/data/make_dataset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cnn_mnist_classifier/src/features/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cnn_mnist_classifier/src/features/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cnn_mnist_classifier/src/features/build_features.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cnn_mnist_classifier/src/models/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cnn_mnist_classifier/src/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cnn_mnist_classifier/src/models/model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cnn_mnist_classifier/src/models/predict_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cnn_mnist_classifier/src/models/train_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cnn_mnist_classifier/src/visualization/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cnn_mnist_classifier/src/visualization/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cnn_mnist_classifier/src/visualization/visualize.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cnn_mnist_classifier/test_environment.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cnn_mnist_classifier/tox.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/mlops2023.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mlops2023.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/s1_development_environment/4_Fashion_MNIST.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/s1_development_environment/4_Fashion_MNIST.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/s1_development_environment/5_Inference_and_Validation.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/s1_development_environment/5_Inference_and_Validation.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/s1_development_environment/final_exercise/data.py" beforeDir="false" afterPath="$PROJECT_DIR$/s1_development_environment/final_exercise/data.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +62,112 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cnn_mnist_classifier" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager" selected="Python.predict_model">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="mlops2023" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Dennis\AppData\Local\Programs\Python\Python39\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/s1_development_environment/final_exercise" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/s1_development_environment/final_exercise/main.py" />
+      <option name="PARAMETERS" value="evaluate checkpoint.pth" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="make_dataset" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="mlops2023" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cnn_mnist_classifier/src/data" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cnn_mnist_classifier/src/data/make_dataset.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="predict_model" type="PythonConfigurationType" factoryName="Python">
+      <module name="mlops2023" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Dennis\AppData\Local\Programs\Python\Python39\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cnn_mnist_classifier" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cnn_mnist_classifier/src/models/predict_model.py" />
+      <option name="PARAMETERS" value="evaluate models/corruptmnist/checkpoint.pth data/processed/corruptmnist/corruptmnist_test.npz" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="train_model" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="mlops2023" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cnn_mnist_classifier" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cnn_mnist_classifier/src/models/train_model.py" />
+      <option name="PARAMETERS" value="train" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.predict_model" />
+      <item itemvalue="Python.train_model" />
+      <item itemvalue="Python.make_dataset" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.train_model" />
+        <item itemvalue="Python.make_dataset" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -31,11 +177,45 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672738660611</updated>
-      <workItem from="1672738662795" duration="604000" />
+      <workItem from="1672738662795" duration="13668000" />
+      <workItem from="1672755371598" duration="118000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/s1_development_environment/final_exercise/data.py</url>
+          <line>43</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/cnn_mnist_classifier/src/visualization/visualize.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/mlops2023$predict_model.coverage" NAME="predict_model Coverage Results" MODIFIED="1672754911220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cnn_mnist_classifier" />
+    <SUITE FILE_PATH="coverage/mlops2023$make_dataset.coverage" NAME="train_model Coverage Results" MODIFIED="1672754008187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cnn_mnist_classifier" />
+    <SUITE FILE_PATH="coverage/mlops2023$main.coverage" NAME="main Coverage Results" MODIFIED="1672747675445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/s1_development_environment/final_exercise" />
   </component>
 </project>

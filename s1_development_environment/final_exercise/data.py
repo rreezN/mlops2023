@@ -1,7 +1,7 @@
 import torch
 import numpy as np
 from torch.utils.data import Dataset, DataLoader
-
+from torch.nn.functional import normalize
 
 def mnist():
     # exchange with the corrupted mnist dataset
@@ -11,7 +11,7 @@ def mnist():
     images = []
     labels = []
     for fname in filenames:
-        a = np.load(f"../../../data/corruptmnist/{fname}")
+        a = np.load(f"../../data/corruptmnist/{fname}")
         images_ = a['images']
         labels_ = a['labels']
         images.append(images_)
@@ -19,7 +19,7 @@ def mnist():
     train_images = np.concatenate(images)
     train_labels = np.concatenate(labels)
 
-    test = np.load("../../../data/corruptmnist/test.npz")
+    test = np.load("../../data/corruptmnist/test.npz")
     test_images = test['images']
     test_labels = test['labels']
 
@@ -29,10 +29,13 @@ def mnist():
             self.labels = torch.from_numpy(labels)
 
         def __getitem__(self, item):
-            return self.data[item].float(), self.labels[item]
+            return self.normalise(self.data[item].float()), self.labels[item]
 
         def __len__(self):
             return len(self.data)
+
+        def normalise(self, tnsr):
+            return (tnsr-tnsr.mean())/tnsr.std()
 
     train_dataset = dataset(train_images, train_labels)
     test_dataset = dataset(test_images, test_labels)
