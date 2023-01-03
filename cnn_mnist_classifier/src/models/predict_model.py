@@ -1,13 +1,14 @@
 import argparse
+import pickle
 import sys
 
-import torch
 import click
-from torch import optim
+import torch
 import torch.nn as nn
-import pickle
 from model import MyAwesomeModel
-from torch.utils.data import Dataset, DataLoader
+from torch import optim
+from torch.utils.data import DataLoader, Dataset
+
 
 class dataset(Dataset):
     def __init__(self, images, labels):

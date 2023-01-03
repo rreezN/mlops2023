@@ -1,13 +1,15 @@
-import torch
-import click
-from torch import optim
-import torch.nn as nn
-import pickle
-from model import MyAwesomeModel
-from torch.utils.data import Dataset, DataLoader
 import os
-import numpy as np
+import pickle
+
+import click
 import matplotlib.pyplot as plt
+import numpy as np
+import torch
+import torch.nn as nn
+from model import MyAwesomeModel
+from torch import optim
+from torch.utils.data import DataLoader, Dataset
+
 
 @click.group()
 def cli():

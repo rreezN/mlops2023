@@ -1,49 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8207386a-1169-4a04-9a0a-ffa67b265f21" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/cnn_mnist_classifier/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cnn_mnist_classifier/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cnn_mnist_classifier/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cnn_mnist_classifier/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cnn_mnist_classifier/docs/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cnn_mnist_classifier/docs/commands.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cnn_mnist_classifier/docs/conf.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cnn_mnist_classifier/docs/getting-started.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cnn_mnist_classifier/docs/index.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cnn_mnist_classifier/docs/make.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cnn_mnist_classifier/models/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cnn_mnist_classifier/models/corruptmnist/checkpoint.pth" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cnn_mnist_classifier/notebooks/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cnn_mnist_classifier/references/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cnn_mnist_classifier/reports/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cnn_mnist_classifier/reports/figures/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cnn_mnist_classifier/reports/figures/corruptmnist/corruptmnisttraining_curve.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cnn_mnist_classifier/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cnn_mnist_classifier/setup.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cnn_mnist_classifier/src/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cnn_mnist_classifier/src/data/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cnn_mnist_classifier/src/data/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cnn_mnist_classifier/src/data/make_dataset.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cnn_mnist_classifier/src/features/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cnn_mnist_classifier/src/features/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cnn_mnist_classifier/src/features/build_features.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cnn_mnist_classifier/src/models/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cnn_mnist_classifier/src/models/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cnn_mnist_classifier/src/models/model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cnn_mnist_classifier/src/models/predict_model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cnn_mnist_classifier/src/models/train_model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cnn_mnist_classifier/src/visualization/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cnn_mnist_classifier/src/visualization/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cnn_mnist_classifier/src/visualization/visualize.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cnn_mnist_classifier/test_environment.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cnn_mnist_classifier/tox.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/mlops2023.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mlops2023.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/s1_development_environment/4_Fashion_MNIST.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/s1_development_environment/4_Fashion_MNIST.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/s1_development_environment/5_Inference_and_Validation.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/s1_development_environment/5_Inference_and_Validation.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/s1_development_environment/final_exercise/data.py" beforeDir="false" afterPath="$PROJECT_DIR$/s1_development_environment/final_exercise/data.py" afterDir="false" />
-    </list>
+    <list default="true" id="8207386a-1169-4a04-9a0a-ffa67b265f21" name="Changes" comment="project" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -178,8 +136,16 @@
       <option name="presentableId" value="Default" />
       <updated>1672738660611</updated>
       <workItem from="1672738662795" duration="13668000" />
-      <workItem from="1672755371598" duration="118000" />
+      <workItem from="1672755371598" duration="160000" />
     </task>
+    <task id="LOCAL-00001" summary="project">
+      <created>1672755524658</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1672755524658</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,6 +162,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="project" />
+    <option name="LAST_COMMIT_MESSAGE" value="project" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
