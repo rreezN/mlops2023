@@ -51,6 +51,7 @@ def train(lr):
             print(f'Epoch: {e}, Accuracy: {accuracy.item() * 100}%')
     torch.save(model.state_dict(), f'checkpoint{e}.pth')
 
+
 @click.command()
 @click.argument("model_checkpoint")
 def evaluate(model_checkpoint):
