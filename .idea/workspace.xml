@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8207386a-1169-4a04-9a0a-ffa67b265f21" name="Changes" comment="project" />
+    <list default="true" id="8207386a-1169-4a04-9a0a-ffa67b265f21" name="Changes" comment="project">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/s2_organisation_and_version_control/typing_exercise.py" beforeDir="false" afterPath="$PROJECT_DIR$/s2_organisation_and_version_control/typing_exercise.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -136,7 +139,7 @@
       <option name="presentableId" value="Default" />
       <updated>1672738660611</updated>
       <workItem from="1672738662795" duration="13668000" />
-      <workItem from="1672755371598" duration="160000" />
+      <workItem from="1672755371598" duration="1393000" />
     </task>
     <task id="LOCAL-00001" summary="project">
       <created>1672755524658</created>
@@ -177,7 +180,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/cnn_mnist_classifier/src/visualization/visualize.py</url>
-          <line>14</line>
+          <line>15</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
