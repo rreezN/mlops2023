@@ -21,10 +21,6 @@ class dataset(Dataset):
     def __len__(self):
         return len(self.data)
 
-@click.group()
-def cli():
-    pass
-
 @click.command()
 @click.argument("model_checkpoint")
 @click.argument("test_path")
@@ -55,8 +51,5 @@ def evaluate(model_checkpoint, test_path):
     print(f'Accuracy: {accuracy}')
 
 
-cli.add_command(evaluate)
-
-
 if __name__ == "__main__":
-    cli()
+    evaluate()

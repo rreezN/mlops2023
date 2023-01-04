@@ -23,7 +23,8 @@ def main(input_filepath, output_filepath):
         return (x - mean) / std
         # return x
 
-    filenames = ["train_0.npz", "train_1.npz", "train_2.npz", "train_3.npz", "train_4.npz"]
+    filenames = ["train_0.npz", "train_1.npz", "train_2.npz", "train_3.npz", "train_4.npz", "train_5.npz", "train_6.npz", "train_7.npz"]
+
 
     images = []
     labels = []

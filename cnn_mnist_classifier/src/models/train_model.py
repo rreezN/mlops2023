@@ -11,9 +11,6 @@ from torch import optim
 from torch.utils.data import DataLoader, Dataset
 
 
-@click.group()
-def cli():
-    pass
 
 class dataset(Dataset):
     def __init__(self, images, labels):
@@ -91,7 +88,5 @@ def train(lr, epoch, batch_size):
             print(f'Epoch: {e}, Loss: {running_loss/len(train_loader)}, Accuracy: {accuracy.item() * 100}%\n')
 
 
-cli.add_command(train)
-
 if __name__ == "__main__":
-    cli()
+    train()
