@@ -1,6 +1,6 @@
 import os
 import pickle
-
+import wandb
 import click
 import matplotlib.pyplot as plt
 import numpy as np
@@ -11,6 +11,7 @@ from torch import optim
 from torch.utils.data import DataLoader, Dataset
 
 
+wandb.init(project='training of mnist classifier', entity="mlops2023")
 
 class dataset(Dataset):
     def __init__(self, images, labels):
@@ -76,9 +77,15 @@ def train(lr, epoch, batch_size):
 
             train_losses += [running_loss/len(train_loader)]
 
-            plt.plot(np.arange(0, e+1), train_losses, color='royalblue')
-            plt.title(f"Training loss curve at epoch: {e}")
-            plt.grid()
+            wandb.log({"loss": running_loss/len(train_loader), "epoch": e})
+
+            fig, ax = plt.subplots()
+            ax.plot(np.arange(0, e+1), train_losses, color='royalblue')
+            ax.title.set_text(f"Training loss curve at epoch: {e}")
+            ax.grid()
+
+            wandb.log({"plot": wandb.Image(fig)})
+
             plt.savefig(f"reports/figures/{model.name}/{model.name}"+"training_curve")
 
             ps = torch.exp(model(images))

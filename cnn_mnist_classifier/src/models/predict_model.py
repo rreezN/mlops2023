@@ -8,7 +8,9 @@ import torch.nn as nn
 from model import MyAwesomeModel
 from torch import optim
 from torch.utils.data import DataLoader, Dataset
+import wandb
 
+wandb.init(project='training of mnist classifier', entity="mlops2023")
 
 class dataset(Dataset):
     def __init__(self, images, labels):
@@ -49,6 +51,7 @@ def evaluate(model_checkpoint, test_path):
             accuracy += accuracy_.item()
         accuracy /= len(test_loader)
     print(f'Accuracy: {accuracy}')
+    wandb.log({"Accuracy": accuracy})
 
 
 if __name__ == "__main__":
