@@ -1,1 +1,0 @@
-{"loss": 0.06386987668122057, "epoch": 29, "_timestamp": 1672913115.9817617, "_runtime": 382.5080797672272, "_step": 59, "plot": {"_type": "image-file", "sha256": "447d196da6b9ececcb607889c773265a9d4cbe8f031f182deb9209cc5b4960fc", "size": 25011, "path": "media/images/plot_59_447d196da6b9ececcb60.png", "format": "png", "width": 640, "height": 480}, "_wandb": {"runtime": 381}}
