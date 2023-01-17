@@ -1,0 +1,116 @@
+2023-01-15T21:50:07,006 [INFO ] main org.pytorch.serve.servingsdk.impl.PluginsManager -  Loading snapshot serializer plugin...
+2023-01-15T21:50:07,006 [INFO ] main org.pytorch.serve.servingsdk.impl.PluginsManager -  Loading snapshot serializer plugin...
+2023-01-15T21:50:07,131 [INFO ] main org.pytorch.serve.servingsdk.impl.PluginsManager - Initializing plugins manager...
+2023-01-15T21:50:07,131 [INFO ] main org.pytorch.serve.servingsdk.impl.PluginsManager - Initializing plugins manager...
+2023-01-15T21:50:07,342 [INFO ] main org.pytorch.serve.ModelServer - 
+Torchserve version: 0.7.0
+TS Home: C:\Users\Dennis\AppData\Local\Programs\Python\Python39\Lib\site-packages
+Current directory: C:\Users\Dennis\OneDrive - Danmarks Tekniske Universitet\Documents\DTU_KID1922\7_semester\02476_mlops\mlops2023\s7_deployment
+Temp directory: C:\Users\Dennis\AppData\Local\Temp
+Metrics config path: C:\Users\Dennis\AppData\Local\Programs\Python\Python39\Lib\site-packages/ts/configs/metrics.yaml
+Number of GPUs: 1
+Number of CPUs: 12
+Max heap size: 4080 M
+Python executable: C:\Users\Dennis\AppData\Local\Programs\Python\Python39\python.exe
+Config file: N/A
+Inference address: http://127.0.0.1:8080
+Management address: http://127.0.0.1:8081
+Metrics address: http://127.0.0.1:8082
+Model Store: C:\Users\Dennis\OneDrive - Danmarks Tekniske Universitet\Documents\DTU_KID1922\7_semester\02476_mlops\mlops2023\s7_deployment\model_store
+Initial Models: N/A
+Log dir: C:\Users\Dennis\OneDrive - Danmarks Tekniske Universitet\Documents\DTU_KID1922\7_semester\02476_mlops\mlops2023\s7_deployment\logs
+Metrics dir: C:\Users\Dennis\OneDrive - Danmarks Tekniske Universitet\Documents\DTU_KID1922\7_semester\02476_mlops\mlops2023\s7_deployment\logs
+Netty threads: 0
+Netty client threads: 0
+Default workers per model: 1
+Blacklist Regex: N/A
+Maximum Response Size: 6553500
+Maximum Request Size: 6553500
+Limit Maximum Image Pixels: true
+Prefer direct buffer: false
+Allowed Urls: [file://.*|http(s)?://.*]
+Custom python dependency for model allowed: false
+Metrics report format: prometheus
+Enable metrics API: true
+Workflow Store: C:\Users\Dennis\OneDrive - Danmarks Tekniske Universitet\Documents\DTU_KID1922\7_semester\02476_mlops\mlops2023\s7_deployment\model_store
+Model config: N/A
+2023-01-15T21:50:07,342 [INFO ] main org.pytorch.serve.ModelServer - 
+Torchserve version: 0.7.0
+TS Home: C:\Users\Dennis\AppData\Local\Programs\Python\Python39\Lib\site-packages
+Current directory: C:\Users\Dennis\OneDrive - Danmarks Tekniske Universitet\Documents\DTU_KID1922\7_semester\02476_mlops\mlops2023\s7_deployment
+Temp directory: C:\Users\Dennis\AppData\Local\Temp
+Metrics config path: C:\Users\Dennis\AppData\Local\Programs\Python\Python39\Lib\site-packages/ts/configs/metrics.yaml
+Number of GPUs: 1
+Number of CPUs: 12
+Max heap size: 4080 M
+Python executable: C:\Users\Dennis\AppData\Local\Programs\Python\Python39\python.exe
+Config file: N/A
+Inference address: http://127.0.0.1:8080
+Management address: http://127.0.0.1:8081
+Metrics address: http://127.0.0.1:8082
+Model Store: C:\Users\Dennis\OneDrive - Danmarks Tekniske Universitet\Documents\DTU_KID1922\7_semester\02476_mlops\mlops2023\s7_deployment\model_store
+Initial Models: N/A
+Log dir: C:\Users\Dennis\OneDrive - Danmarks Tekniske Universitet\Documents\DTU_KID1922\7_semester\02476_mlops\mlops2023\s7_deployment\logs
+Metrics dir: C:\Users\Dennis\OneDrive - Danmarks Tekniske Universitet\Documents\DTU_KID1922\7_semester\02476_mlops\mlops2023\s7_deployment\logs
+Netty threads: 0
+Netty client threads: 0
+Default workers per model: 1
+Blacklist Regex: N/A
+Maximum Response Size: 6553500
+Maximum Request Size: 6553500
+Limit Maximum Image Pixels: true
+Prefer direct buffer: false
+Allowed Urls: [file://.*|http(s)?://.*]
+Custom python dependency for model allowed: false
+Metrics report format: prometheus
+Enable metrics API: true
+Workflow Store: C:\Users\Dennis\OneDrive - Danmarks Tekniske Universitet\Documents\DTU_KID1922\7_semester\02476_mlops\mlops2023\s7_deployment\model_store
+Model config: N/A
+2023-01-15T21:50:07,363 [INFO ] main org.pytorch.serve.ModelServer - Initialize Inference server with: NioServerSocketChannel.
+2023-01-15T21:50:07,363 [INFO ] main org.pytorch.serve.ModelServer - Initialize Inference server with: NioServerSocketChannel.
+2023-01-15T21:50:07,458 [INFO ] main org.pytorch.serve.ModelServer - Inference API bind to: http://127.0.0.1:8080
+2023-01-15T21:50:07,458 [INFO ] main org.pytorch.serve.ModelServer - Inference API bind to: http://127.0.0.1:8080
+2023-01-15T21:50:07,459 [INFO ] main org.pytorch.serve.ModelServer - Initialize Management server with: NioServerSocketChannel.
+2023-01-15T21:50:07,459 [INFO ] main org.pytorch.serve.ModelServer - Initialize Management server with: NioServerSocketChannel.
+2023-01-15T21:50:07,460 [INFO ] main org.pytorch.serve.ModelServer - Management API bind to: http://127.0.0.1:8081
+2023-01-15T21:50:07,460 [INFO ] main org.pytorch.serve.ModelServer - Management API bind to: http://127.0.0.1:8081
+2023-01-15T21:50:07,460 [INFO ] main org.pytorch.serve.ModelServer - Initialize Metrics server with: NioServerSocketChannel.
+2023-01-15T21:50:07,460 [INFO ] main org.pytorch.serve.ModelServer - Initialize Metrics server with: NioServerSocketChannel.
+2023-01-15T21:50:07,461 [INFO ] main org.pytorch.serve.ModelServer - Metrics API bind to: http://127.0.0.1:8082
+2023-01-15T21:50:07,461 [INFO ] main org.pytorch.serve.ModelServer - Metrics API bind to: http://127.0.0.1:8082
+2023-01-15T21:50:07,809 [ERROR] Thread-1 org.pytorch.serve.metrics.MetricCollector - Traceback (most recent call last):
+  File "C:\Users\Dennis\AppData\Local\Programs\Python\Python39\Lib\site-packages\ts\metrics\metric_collector.py", line 27, in <module>
+    system_metrics.collect_all(sys.modules['ts.metrics.system_metrics'], arguments.gpu)
+  File "C:\Users\Dennis\AppData\Local\Programs\Python\Python39\lib\site-packages\ts\metrics\system_metrics.py", line 119, in collect_all
+    value(num_of_gpu)
+  File "C:\Users\Dennis\AppData\Local\Programs\Python\Python39\lib\site-packages\ts\metrics\system_metrics.py", line 64, in gpu_utilization
+    import nvgpu
+ModuleNotFoundError: No module named 'nvgpu'
+
+2023-01-15T21:50:07,809 [ERROR] Thread-1 org.pytorch.serve.metrics.MetricCollector - Traceback (most recent call last):
+  File "C:\Users\Dennis\AppData\Local\Programs\Python\Python39\Lib\site-packages\ts\metrics\metric_collector.py", line 27, in <module>
+    system_metrics.collect_all(sys.modules['ts.metrics.system_metrics'], arguments.gpu)
+  File "C:\Users\Dennis\AppData\Local\Programs\Python\Python39\lib\site-packages\ts\metrics\system_metrics.py", line 119, in collect_all
+    value(num_of_gpu)
+  File "C:\Users\Dennis\AppData\Local\Programs\Python\Python39\lib\site-packages\ts\metrics\system_metrics.py", line 64, in gpu_utilization
+    import nvgpu
+ModuleNotFoundError: No module named 'nvgpu'
+
+2023-01-15T21:51:07,815 [ERROR] Thread-2 org.pytorch.serve.metrics.MetricCollector - Traceback (most recent call last):
+  File "C:\Users\Dennis\AppData\Local\Programs\Python\Python39\Lib\site-packages\ts\metrics\metric_collector.py", line 27, in <module>
+    system_metrics.collect_all(sys.modules['ts.metrics.system_metrics'], arguments.gpu)
+  File "C:\Users\Dennis\AppData\Local\Programs\Python\Python39\lib\site-packages\ts\metrics\system_metrics.py", line 119, in collect_all
+    value(num_of_gpu)
+  File "C:\Users\Dennis\AppData\Local\Programs\Python\Python39\lib\site-packages\ts\metrics\system_metrics.py", line 64, in gpu_utilization
+    import nvgpu
+ModuleNotFoundError: No module named 'nvgpu'
+
+2023-01-15T21:51:07,815 [ERROR] Thread-2 org.pytorch.serve.metrics.MetricCollector - Traceback (most recent call last):
+  File "C:\Users\Dennis\AppData\Local\Programs\Python\Python39\Lib\site-packages\ts\metrics\metric_collector.py", line 27, in <module>
+    system_metrics.collect_all(sys.modules['ts.metrics.system_metrics'], arguments.gpu)
+  File "C:\Users\Dennis\AppData\Local\Programs\Python\Python39\lib\site-packages\ts\metrics\system_metrics.py", line 119, in collect_all
+    value(num_of_gpu)
+  File "C:\Users\Dennis\AppData\Local\Programs\Python\Python39\lib\site-packages\ts\metrics\system_metrics.py", line 64, in gpu_utilization
+    import nvgpu
+ModuleNotFoundError: No module named 'nvgpu'
+
